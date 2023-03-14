@@ -1,0 +1,5 @@
+C:\Users\Pianist\source\repos\RabbitListener\Consumer\obj\Debug\net6.0\Consumer.csproj.AssemblyReference.cache
+C:\Users\Pianist\source\repos\RabbitListener\Consumer\obj\Debug\net6.0\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pianist\source\repos\RabbitListener\Consumer\obj\Debug\net6.0\Consumer.AssemblyInfoInputs.cache
+C:\Users\Pianist\source\repos\RabbitListener\Consumer\obj\Debug\net6.0\Consumer.AssemblyInfo.cs
+C:\Users\Pianist\source\repos\RabbitListener\Consumer\obj\Debug\net6.0\Consumer.csproj.CoreCompileInputs.cache

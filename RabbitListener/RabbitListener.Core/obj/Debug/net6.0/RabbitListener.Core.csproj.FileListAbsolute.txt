@@ -1,0 +1,12 @@
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\bin\Debug\net6.0\RabbitListener.Core.deps.json
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\bin\Debug\net6.0\RabbitListener.Core.dll
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\bin\Debug\net6.0\RabbitListener.Core.pdb
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.csproj.AssemblyReference.cache
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.AssemblyInfoInputs.cache
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.AssemblyInfo.cs
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.csproj.CoreCompileInputs.cache
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.dll
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\refint\RabbitListener.Core.dll
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\RabbitListener.Core.pdb
+C:\Users\Pianist\source\repos\RabbitListener\RabbitListener.Core\obj\Debug\net6.0\ref\RabbitListener.Core.dll
