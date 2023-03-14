@@ -652,6 +652,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "RabbitMQ.Client/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -926,17 +939,27 @@
           }
         }
       },
-      "RabbitListenerTests/1.0.0": {
+      "RabbitListener.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ConsumerWorkerService": "1.0.0"
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/RabbitListenerTests.dll": {}
+          "bin/placeholder/RabbitListener.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RabbitListenerTests.dll": {}
+          "bin/placeholder/RabbitListener.Common.dll": {}
+        }
+      },
+      "RabbitListener.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RabbitListener.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RabbitListener.Core.dll": {}
         }
       }
     }
@@ -1748,6 +1771,36 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "RabbitMQ.Client/6.4.0": {
       "sha512": "1znR1gGU+xYVSpO5z8nQolcUKA/yydnxQn7Ug9+RUXxTSLMm/eE58VKGwahPBjELXvDnX0k/kBrAitFLRjx9LA==",
       "type": "package",
@@ -2239,7 +2292,12 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "RabbitListenerTests/1.0.0": {
+    "RabbitListener.Common/1.0.0": {
+      "type": "project",
+      "path": "../RabbitListener.Common/RabbitListener.Common.csproj",
+      "msbuildProject": "../RabbitListener.Common/RabbitListener.Common.csproj"
+    },
+    "RabbitListener.Core/1.0.0": {
       "type": "project",
       "path": "../RabbitListener.Core/RabbitListener.Core.csproj",
       "msbuildProject": "../RabbitListener.Core/RabbitListener.Core.csproj"
@@ -2252,7 +2310,8 @@
       "MassTransit.RabbitMQ >= 8.0.13",
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
-      "RabbitListenerTests >= 1.0.0",
+      "RabbitListener.Common >= 1.0.0",
+      "RabbitListener.Core >= 1.0.0",
       "System.Configuration.ConfigurationManager >= 7.0.0"
     ]
   },
@@ -2263,11 +2322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\ConsumerWorkerService\\ConsumerWorkerService.csproj",
+      "projectUniqueName": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\ConsumerWorkerService\\ConsumerWorkerService.csproj",
       "projectName": "ConsumerWorkerService",
-      "projectPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\ConsumerWorkerService\\ConsumerWorkerService.csproj",
+      "projectPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\ConsumerWorkerService\\ConsumerWorkerService.csproj",
       "packagesPath": "C:\\Users\\Pianist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\ConsumerWorkerService\\obj\\",
+      "outputPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\ConsumerWorkerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2288,11 +2347,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {
-              "projectPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj"
+            "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {
+              "projectPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj"
             },
-            "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Core\\RabbitListener.Core.csproj": {
-              "projectPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Core\\RabbitListener.Core.csproj"
+            "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Core\\RabbitListener.Core.csproj": {
+              "projectPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Core\\RabbitListener.Core.csproj"
             }
           }
         }
@@ -2351,16 +2410,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  ConsumerWorkerService -> RabbitListenerTests -> ConsumerWorkerService.",
-      "libraryId": "ConsumerWorkerService",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

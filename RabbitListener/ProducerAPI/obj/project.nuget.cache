@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V4cxIOvlaHi2yeGGoheJGojHUvUkh6xqLopVtZZgSZ8Dg0VLMkNgKP/E2MWRbhCZjmD4AdwOw4/iwUn8voYWyQ==",
+  "dgSpecHash": "A5SUZ2SfC0NdUpnFzEggMiSO+0m8o2BMV9rCPCqJx+8aqiihs1bfmE9aD4jDEwcxAdRrsXLqVCDG3IuUHMwkvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\ProducerAPI\\ProducerAPI.csproj",
+  "projectFilePath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\ProducerAPI\\ProducerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pianist\\.nuget\\packages\\masstransit\\8.0.13\\masstransit.8.0.13.nupkg.sha512",
     "C:\\Users\\Pianist\\.nuget\\packages\\masstransit.abstractions\\8.0.13\\masstransit.abstractions.8.0.13.nupkg.sha512",

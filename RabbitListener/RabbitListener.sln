@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2DA652FC-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0ED8706F-EE5E-4808-A37B-D9DAAC6AEFF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitListenerTests", "TestProject1\RabbitListenerTests.csproj", "{CD68D1A3-D49B-4EEF-9D14-07B9ED596D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitListenerTests", "RabbitListenerTests\RabbitListenerTests.csproj", "{CD68D1A3-D49B-4EEF-9D14-07B9ED596D82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

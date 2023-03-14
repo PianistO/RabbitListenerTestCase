@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ViAaQP2Oqv17qzEFU/lmsvqe7mP7sxeKE39qkHU4e5RCQxB81VMsB1iHcSkq2+IM2USuc3b80LK9yXj3ADWZ1w==",
+  "dgSpecHash": "9tjH/2fvhSs/Qt0DPwdWkQceifAruysF5SevESTgzQ/i8eRs1fn5qAugGU9dfR07K772HV8xGDiSFXlydRmc4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
+  "projectFilePath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pianist\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

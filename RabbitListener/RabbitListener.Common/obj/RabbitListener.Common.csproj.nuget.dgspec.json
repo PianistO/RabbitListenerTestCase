@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {}
+    "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {
+    "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
         "projectName": "RabbitListener.Common",
-        "projectPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
+        "projectPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\RabbitListener.Common.csproj",
         "packagesPath": "C:\\Users\\Pianist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pianist\\source\\repos\\RabbitListener\\RabbitListener.Common\\obj\\",
+        "outputPath": "C:\\Users\\Pianist\\Documents\\GitHub\\pianistWork\\RabbitListener\\RabbitListener.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
